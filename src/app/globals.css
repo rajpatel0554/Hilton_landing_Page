@@ -36,11 +36,15 @@
 }
 
 /* Custom Base Styles */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   font-family: var(--font-inter), sans-serif;
   background-color: #f8f9ff;
   color: #121c2a;
-  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6, .font-headline {
@@ -146,6 +150,8 @@ html {
 
 .book-page-inner {
   position: relative;
+  width: 100%;
+  max-width: 100%;
   background: var(--color-surface-white);
   border: 1px solid var(--color-outline-variant);
   box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
@@ -251,9 +257,13 @@ html {
   .book-wrap {
     flex-direction: column;
     gap: 0;
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow: hidden;
   }
   .book-page-wrap {
-    width: 100%;
+    width: 100% !important;
+    max-width: 100% !important;
     flex: none;
   }
   .book-page-left {
