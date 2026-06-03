@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { CATALOG, Product } from "../data/products";
+import { triggerEmailInquiry } from "../utils/email";
 
 export default function ProductCatalog() {
   const [activeTab, setActiveTab] = useState<string>("valves");
@@ -50,11 +51,6 @@ export default function ProductCatalog() {
   // Helper to count products in a tab
   const getTabCount = (tabName: string) => {
     return CATALOG.filter((p) => p.tab === tabName).length;
-  };
-
-  const getMailtoLink = (p: Product) => {
-    const emailBody = `Hello Hilton Plastic,\n\nI am interested in the following product:\n\nModel #: ${p.id}\nProduct: ${p.name}\nSize: ${p.size}\nVariant: ${p.variant}\n\nPlease send me pricing, minimum order quantity, and availability.\n\nThank you.`;
-    return `mailto:hiltonplasticvalve1993@gmail.com?subject=Inquiry: Model ${p.id} – ${encodeURIComponent(p.name)}&body=${encodeURIComponent(emailBody)}`;
   };
 
   const tabs = [
@@ -194,13 +190,17 @@ export default function ProductCatalog() {
                     >
                       Details
                     </button>
-                    <a
-                      href={getMailtoLink(p)}
-                      onClick={(e) => e.stopPropagation()}
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        const emailBody = `Hello Hilton Plastic,\n\nI am interested in the following product:\n\nModel #: ${p.id}\nProduct: ${p.name}\nSize: ${p.size}\nVariant: ${p.variant}\n\nPlease send me pricing, minimum order quantity, and availability.\n\nThank you.`;
+                        const subject = `Inquiry: Model ${p.id} – ${p.name}`;
+                        triggerEmailInquiry(subject, emailBody);
+                      }}
                       className="w-full sm:flex-1 text-center bg-primary text-surface-white py-2 rounded-lg text-xs font-bold font-headline hover:bg-primary-dark transition-colors flex items-center justify-center gap-1 focus:outline-none shadow-sm cursor-pointer"
                     >
                       Inquire
-                    </a>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -288,7 +288,7 @@ export default function ProductCatalog() {
                     <div className="py-2.5 flex justify-between gap-4">
                       <span className="text-on-surface-variant font-bold">Material Grade</span>
                       <span className="text-on-surface font-semibold text-right">
-                        PP / CPVC / UPVC / Rigid PVC
+                        Polypropylene
                       </span>
                     </div>
                     <div className="py-2.5 flex justify-between gap-4">
@@ -302,12 +302,16 @@ export default function ProductCatalog() {
 
                 {/* Inquiry Panel in Modal */}
                 <div className="space-y-3 pt-4 border-t border-outline-variant/10">
-                  <a
-                    href={getMailtoLink(selectedProduct)}
+                  <button
+                    onClick={() => {
+                      const emailBody = `Hello Hilton Plastic,\n\nI am interested in the following product:\n\nModel #: ${selectedProduct.id}\nProduct: ${selectedProduct.name}\nSize: ${selectedProduct.size}\nVariant: ${selectedProduct.variant}\n\nPlease send me pricing, minimum order quantity, and availability.\n\nThank you.`;
+                      const subject = `Inquiry: Model ${selectedProduct.id} – ${selectedProduct.name}`;
+                      triggerEmailInquiry(subject, emailBody);
+                    }}
                     className="w-full text-center bg-primary text-surface-white py-3 rounded text-xs font-bold font-headline hover:bg-primary-dark transition-colors flex items-center justify-center gap-2 focus:outline-none shadow-sm cursor-pointer"
                   >
                     📧 Send Email Inquiry for This Item
-                  </a>
+                  </button>
                   <div className="flex flex-col sm:flex-row gap-2 pt-1.5 text-[10px] sm:text-xs">
                     <a
                       href="tel:+919624096424"

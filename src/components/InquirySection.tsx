@@ -1,12 +1,22 @@
 "use client";
 
 import React, { useState } from "react";
+import { triggerEmailInquiry } from "../utils/email";
 
 export default function InquirySection() {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [requirements, setRequirements] = useState("");
   const [errors, setErrors] = useState<{ name?: string; phone?: string }>({});
+
+  const sanitizeInput = (text: string): string => {
+    return text
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#x27;")
+      .replace(/\//g, "&#x2F;");
+  };
 
   const handleInquirySubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -28,18 +38,17 @@ export default function InquirySection() {
 
     setErrors({});
 
-    // Process mailto link pre-fill
-    const body = `Hello Hilton Plastic,\n\nName / Company: ${name}\nPhone: ${phone}\n\nRequirements / Message:\n${
-      requirements || "Not specified"
-    }\n\nPlease contact me back with pricing, catalogs, and availability.\n\nThank you.`;
-    const subject = `Bulk Procurement Inquiry from ${name}`;
-    const mailto = `mailto:hiltonplasticvalve1993@gmail.com?subject=${encodeURIComponent(
-      subject
-    )}&body=${encodeURIComponent(body)}`;
+    const cleanName = sanitizeInput(name.trim());
+    const cleanPhone = sanitizeInput(phone.trim());
+    const cleanRequirements = sanitizeInput(requirements.trim());
 
-    if (typeof window !== "undefined") {
-      window.location.href = mailto;
-    }
+    // Process mailto link pre-fill
+    const body = `Hello Hilton Plastic,\n\nName / Company: ${cleanName}\nPhone: ${cleanPhone}\n\nRequirements / Message:\n${
+      cleanRequirements || "Not specified"
+    }\n\nPlease contact me back with pricing, catalogs, and availability.\n\nThank you.`;
+    const subject = `Bulk Procurement Inquiry from ${cleanName}`;
+
+    triggerEmailInquiry(subject, body);
   };
 
   return (
@@ -116,6 +125,10 @@ export default function InquirySection() {
               {/* Email Support */}
               <a
                 href="mailto:hiltonplasticvalve1993@gmail.com"
+                onClick={(e) => {
+                  e.preventDefault();
+                  triggerEmailInquiry("Procurement Inquiry", "Hello Hilton Plastic,\n\n");
+                }}
                 className="group flex items-center justify-between p-4 bg-surface-white border border-outline-variant/15 hover:border-primary/20 rounded-lg shadow-sm hover:shadow transition-all duration-200"
               >
                 <div className="flex gap-4 items-center">
