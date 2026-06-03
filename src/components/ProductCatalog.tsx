@@ -22,6 +22,21 @@ export default function ProductCatalog() {
     return () => window.removeEventListener("select-catalog-tab", handleSelectTabEvent);
   }, []);
 
+  // Lock body scroll when product details modal is open to prevent background scrolling/address-bar resize on mobile
+  useEffect(() => {
+    if (selectedProduct) {
+      document.body.style.overflow = "hidden";
+      document.body.style.position = "relative";
+    } else {
+      document.body.style.overflow = "";
+      document.body.style.position = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+      document.body.style.position = "";
+    };
+  }, [selectedProduct]);
+
   const handleTabChange = (tabName: string) => {
     setActiveTab(tabName);
     setSearchQuery(""); // Clear search to avoid confusion when switching tabs
@@ -228,26 +243,26 @@ export default function ProductCatalog() {
         {/* HIGH-FIDELITY PRODUCT DETAILS POPUP MODAL SCREEN OVERLAY */}
         {selectedProduct && (
           <div
-            className="fixed inset-0 z-50 bg-on-surface/50 backdrop-blur-sm flex items-center justify-center p-4 animate-in fade-in duration-200"
+            className="fixed inset-0 z-50 bg-on-surface/60 backdrop-blur-sm flex items-center justify-center p-3 sm:p-4 animate-in fade-in duration-200"
             onClick={() => setSelectedProduct(null)}
           >
             <div
-              className="bg-surface-white w-full max-w-3xl rounded-lg shadow-2xl border border-outline-variant/20 flex flex-col md:flex-row relative animate-in zoom-in-95 duration-200 max-h-[90vh] overflow-y-auto md:overflow-hidden"
+              className="bg-surface-white w-full max-w-md md:max-w-3xl rounded-2xl shadow-2xl border border-outline-variant/20 flex flex-col md:flex-row relative animate-in zoom-in-95 duration-200 max-h-[85vh] md:max-h-[90vh] overflow-hidden"
               onClick={(e) => e.stopPropagation()}
             >
               {/* Close Button */}
               <button
                 onClick={() => setSelectedProduct(null)}
-                className="absolute top-4 right-4 z-10 w-8 h-8 rounded-full border border-outline-variant/20 bg-surface-white flex items-center justify-center text-on-surface-variant hover:text-primary hover:border-primary/20 transition-all cursor-pointer focus:outline-none"
+                className="absolute top-4 right-4 z-20 w-8 h-8 rounded-full border border-outline-variant/20 bg-surface-white/80 backdrop-blur-sm flex items-center justify-center text-on-surface-variant hover:text-primary hover:border-primary/20 transition-all cursor-pointer focus:outline-none"
               >
                 <span className="material-symbols-outlined text-[18px] font-bold">close</span>
               </button>
 
               {/* Modal Left Image section */}
-              <div className="w-full md:w-1/2 bg-surface-white p-8 flex items-center justify-center border-b md:border-b-0 md:border-r border-outline-variant/10">
+              <div className="w-full md:w-1/2 bg-surface-white p-6 md:p-8 flex items-center justify-center border-b md:border-b-0 md:border-r border-outline-variant/10 shrink-0 h-44 md:h-auto">
                 <img
                   alt={selectedProduct.name}
-                  className="w-full h-full max-h-[220px] object-contain"
+                  className="max-h-[160px] md:max-h-[240px] max-w-[80%] object-contain"
                   src={`/images/${selectedProduct.img}`}
                   onError={(e) => {
                     e.currentTarget.src = "/images/Picture1.png";
@@ -256,7 +271,7 @@ export default function ProductCatalog() {
               </div>
 
               {/* Modal Right Info column */}
-              <div className="w-full md:w-1/2 p-6 sm:p-8 flex flex-col justify-between text-left gap-6">
+              <div className="w-full md:w-1/2 p-5 sm:p-6 md:p-8 flex flex-col justify-between text-left gap-6 overflow-y-auto flex-1">
                 <div className="space-y-4">
                   <div className="flex items-center gap-2">
                     <span className="text-[10px] font-extrabold font-headline uppercase tracking-widest text-primary bg-primary/5 px-2 py-0.5 rounded border border-primary/10">
@@ -267,7 +282,7 @@ export default function ProductCatalog() {
                     </span>
                   </div>
 
-                  <h3 className="text-lg sm:text-xl font-bold font-headline text-on-surface">
+                  <h3 className="text-lg sm:text-xl font-bold font-headline text-on-surface leading-snug">
                     {selectedProduct.name}
                   </h3>
 
