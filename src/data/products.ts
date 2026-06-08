@@ -25,7 +25,7 @@ export const CATALOG: Product[] = [
         size: '1/2" (20 mm) to 4" (110 mm) — includes 1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3", 4"',
         variant: 'White',
         tab: 'valves',
-        img: 'Picture1.png'
+        img: 'Picture2.png'
     },
     {
         id: '3',
@@ -33,7 +33,7 @@ export const CATALOG: Product[] = [
         size: '1/2" (20 mm) to 4" (110 mm) — includes 1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3", 4"',
         variant: 'Black',
         tab: 'valves',
-        img: 'Picture1.png'
+        img: 'Picture3.png'
     },
     {
         id: '4',
@@ -41,7 +41,7 @@ export const CATALOG: Product[] = [
         size: '1/2" (20 mm) to 4" (110 mm) — includes 1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3", 4"',
         variant: 'White',
         tab: 'valves',
-        img: 'Picture1.png'
+        img: 'Picture4.png'
     },
     {
         id: '5',
@@ -49,7 +49,7 @@ export const CATALOG: Product[] = [
         size: '1/2" (20 mm) to 4" (110 mm) — includes  2", 2½", 3", 4", 5", 6", 8"',
         variant: 'Black',
         tab: 'valves',
-        img: 'Picture1.png'
+        img: 'Picture5.png'
     },
     {
         id: '6',
@@ -57,7 +57,7 @@ export const CATALOG: Product[] = [
         size: '1/2" (20 mm) to 4" (110 mm) — includes 2", 2½", 3", 4", 5", 6", 8"',
         variant: 'White',
         tab: 'valves',
-        img: 'Picture1.png'
+        img: 'Picture7.png'
     },
     {
         id: '7',
@@ -65,7 +65,7 @@ export const CATALOG: Product[] = [
         size: '1/2" (20 mm) to 4" (110 mm) — includes 1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3", 4"',
         variant: 'White',
         tab: 'valves',
-        img: 'Picture1.png'
+        img: 'Picture8.png'
     }, 
     {
         id: '8',
@@ -73,7 +73,7 @@ export const CATALOG: Product[] = [
         size: '1/2" (20 mm) to 4" (110 mm) — includes 1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3", 4"',
         variant: 'White',
         tab: 'valves',
-        img: 'Picture1.png'
+        img: 'Picture9.png'
     }, 
     {
         id: '9',
@@ -81,7 +81,7 @@ export const CATALOG: Product[] = [
         size: '1/2" (20 mm) to 4" (110 mm) — includes 1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3", 4"',
         variant: 'White',
         tab: 'valves',
-        img: 'Picture1.png'
+        img: 'Picture10.png'
     },  
     {
         id: '10',
@@ -89,7 +89,7 @@ export const CATALOG: Product[] = [
         size: '1/2" (20 mm) to 4" (110 mm) — includes 1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3", 4"',
         variant: 'White',
         tab: 'valves',
-        img: 'Picture1.png'
+        img: 'Picture11.png'
     },  
     {
         id: '11',
@@ -97,7 +97,7 @@ export const CATALOG: Product[] = [
         size: '1/2" (20 mm) to 4" (110 mm) — includes 1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3", 4"',
         variant: 'White',
         tab: 'valves',
-        img: 'Picture1.png'
+        img: 'Picture12.png'
     }, 
     {
         id: '12',
@@ -105,7 +105,7 @@ export const CATALOG: Product[] = [
         size: '1/2" (20 mm) to 4" (110 mm) — includes 1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3", 4"',
         variant: 'White',
         tab: 'valves',
-        img: 'Picture1.png'
+        img: 'Picture13.png'
     },              
     {
         id: '13',
@@ -113,7 +113,7 @@ export const CATALOG: Product[] = [
         size: '1/2" (20 mm) to 10" (250 mm)',
         variant: 'White',
         tab: 'valves',
-        img: 'Picture1.png'
+        img: 'Picture15.png'
     },  
     {
         id: '14',
@@ -121,7 +121,7 @@ export const CATALOG: Product[] = [
         size: '1" (25 mm) ',
         variant: 'black',
         tab: 'valves',
-        img: 'Picture1.png'
+        img: 'Picture16.png'
     },  
     {
         id: '15',
@@ -129,7 +129,7 @@ export const CATALOG: Product[] = [
         size: '1" (25mm)',
         variant: 'Black',
         tab: 'valves',
-        img: 'Picture1.png'
+        img: 'Picture17.png'
     },      
     {
         id: '16',
@@ -137,7 +137,7 @@ export const CATALOG: Product[] = [
         size: '1/2" (20 mm) to 4" (110 mm) — includes 1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3", 4"',
         variant: 'White',
         tab: 'valves',
-        img: 'Picture1.png'
+        img: 'Picture18.png'
     },  
     {
         id: '17',
@@ -145,7 +145,7 @@ export const CATALOG: Product[] = [
         size: '1/2" (20 mm) to 4" (110 mm) — includes 1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3", 4"',
         variant: 'White',
         tab: 'valves',
-        img: 'Picture1.png'
+        img: 'Picture19.jpg'
     },  
     {
         id: '18',
@@ -153,7 +153,7 @@ export const CATALOG: Product[] = [
         size: ' 1½" (50 mm) to 4" (110 mm) — includes 1½", 2", 2½", 3", 4"',
         variant: 'Black',
         tab: 'valves',
-        img: 'Picture1.png'
+        img: 'Picture21.png'
     },  
     {
         id: '19',
@@ -161,7 +161,7 @@ export const CATALOG: Product[] = [
         size: '1/2" (20 mm) to 4" (110 mm) — includes 1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3", 4"',
         variant: 'Gray',
         tab: 'valves',
-        img: 'Picture1.png'
+        img: 'Picture22.png'
     },  
     {
         id: '20',
@@ -169,7 +169,7 @@ export const CATALOG: Product[] = [
         size: '1/2" (20 mm) to 4" (110 mm) — includes 1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3", 4"',
         variant: 'Black',
         tab: 'valves',
-        img: 'Picture1.png'
+        img: 'Picture241.png'
     },  
     {
         id: '21',
@@ -177,7 +177,7 @@ export const CATALOG: Product[] = [
         size: '1/2" (20 mm) to 4" (110 mm) — includes 1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3", 4"',
         variant: 'Gray',
         tab: 'valves',
-        img: 'Picture1.png'
+        img: 'Picture242.png'
     },  
     {
         id: '22',
@@ -185,7 +185,7 @@ export const CATALOG: Product[] = [
         size: '1/2" (20 mm) to 4" (110 mm) — includes 1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3", 4"',
         variant: 'White',
         tab: 'valves',
-        img: 'Picture1.png'
+        img: 'Picture243.png'
     },  
 
     // ════════════════════════════════
@@ -197,7 +197,7 @@ export const CATALOG: Product[] = [
         size: '1½" to 10"  — includes 1½", 2", 2½", 3", 4", 5", 6", 8", 10"',
         variant: 'Black',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture27.png'
     },  
     {
         id: '24',
@@ -205,7 +205,7 @@ export const CATALOG: Product[] = [
         size: '1½" to 10"  — includes 1½", 2", 2½", 3", 4", 5", 6", 8", 10"',
         variant: 'Grey',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture28.png'
     },  
     {
         id: '25',
@@ -213,7 +213,7 @@ export const CATALOG: Product[] = [
         size: '1½" to 10"  — includes 1½", 2", 2½", 3", 4", 5", 6", 8", 10"',
         variant: 'Black',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture29.png'
     },  
     {
         id: '26',
@@ -221,15 +221,15 @@ export const CATALOG: Product[] = [
         size: '1½" to 10"  — includes 1½", 2", 2½", 3", 4", 5", 6", 8", 10"',
         variant: 'Black',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture30.png'
     },  
     {
         id: '27',
         name: 'Kundi Bari',
         size: '3", 4", 5", 6", 8", 10"',
-        variant: 'Black',
+        variant: 'Gray ',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture31.png'
     },  
     {
         id: '28',
@@ -237,7 +237,7 @@ export const CATALOG: Product[] = [
         size: '2", 2½", 3", 4", 5", 6",7", 8", 10"',
         variant: 'Grey',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture32.png'
     },  
     {
         id: '29',
@@ -245,7 +245,7 @@ export const CATALOG: Product[] = [
         size: '4"',
         variant: 'Grey',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture33.png'
     },  
     {
         id: '30',
@@ -253,7 +253,7 @@ export const CATALOG: Product[] = [
         size: '2", 2½", 3", 4"',
         variant: 'white',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture34.png'
     },  
     {
         id: '31',
@@ -261,7 +261,7 @@ export const CATALOG: Product[] = [
         size: '4", 5", 6", 8", 10"',
         variant: 'Black',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture35.png'
     },  
     {
         id: '32',
@@ -269,7 +269,7 @@ export const CATALOG: Product[] = [
         size: '2", 2½", 3", 4", 5", 6"',
         variant: 'Gray',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture36.png'
     },  
     {
         id: '33',
@@ -277,7 +277,7 @@ export const CATALOG: Product[] = [
         size: '1¼", 1½", 2", 2½", 3", 4"',
         variant: 'Gray',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture37.png'
     },  
     {
         id: '34',
@@ -285,7 +285,7 @@ export const CATALOG: Product[] = [
         size: '1¼", 1½", 2", 2½", 3", 4"',
         variant: 'Gray',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture38.png'
     },  
     {
         id: '35',
@@ -293,7 +293,7 @@ export const CATALOG: Product[] = [
         size: '1¼", 1½", 2", 2½", 3", 4"',
         variant: 'Gray',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture39.jpg'
     },  
     {
         id: '36',
@@ -301,7 +301,7 @@ export const CATALOG: Product[] = [
         size: '1¼", 1½", 2", 2½", 3", 4"',
         variant: 'Gray',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture40.png'
     },  
     {
         id: '37',
@@ -309,7 +309,7 @@ export const CATALOG: Product[] = [
         size: '1¼", 1½", 2", 2½", 3", 4"',
         variant: 'Gray',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture42.jpg'
     },  
     {
         id: '38',
@@ -317,7 +317,7 @@ export const CATALOG: Product[] = [
         size: '1½", 2", 2½", 3", 4"',
         variant: 'Gray',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture41.jpg'
     },  
     {
         id: '39',
@@ -325,7 +325,7 @@ export const CATALOG: Product[] = [
         size: '2", 2½", 3"',
         variant: 'Gray',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture44.png'
     },  
     {
         id: '40',
@@ -333,7 +333,7 @@ export const CATALOG: Product[] = [
         size: '1½", 2", 2½", 3", 4"',
         variant: 'White',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture45.jpg'
     },  
     {
         id: '41',
@@ -341,7 +341,7 @@ export const CATALOG: Product[] = [
         size: '1½", 2", 2½", 3", 4"',
         variant: 'Gray',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture43.png'
     },  
     {
         id: '42',
@@ -349,7 +349,7 @@ export const CATALOG: Product[] = [
         size: '1½", 2", 2½", 3", 4"',
         variant: 'Gray',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture46.jpg'
     },  
     {
         id: '43',
@@ -357,7 +357,7 @@ export const CATALOG: Product[] = [
         size: '1", 1¼", 1½", 2", 2½", 3", 4"',
         variant: 'Blue',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture52.png'
     },  
     {
         id: '44',
@@ -365,7 +365,7 @@ export const CATALOG: Product[] = [
         size: '1", 1¼", 1½", 2", 2½", 3", 4"',
         variant: 'White',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture53.png'
     },  
     {
         id: '45',
@@ -373,7 +373,7 @@ export const CATALOG: Product[] = [
         size: '2", 2½", 3"',
         variant: 'Blue',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture54.png'
     },  
     {
         id: '46',
@@ -381,7 +381,7 @@ export const CATALOG: Product[] = [
         size: '2", 2½", 3"',
         variant: 'Blue',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture55.png'
     },  
     {
         id: '47',
@@ -389,7 +389,7 @@ export const CATALOG: Product[] = [
         size: '2", 2½", 3"',
         variant: 'White',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture56.png'
     },  
     {
         id: '48',
@@ -397,7 +397,7 @@ export const CATALOG: Product[] = [
         size: '2", 2½", 3"',
         variant: 'Pink',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture57.png'
     },  
     {
         id: '49',
@@ -405,7 +405,7 @@ export const CATALOG: Product[] = [
         size: '2", 2½", 3", 4"',
         variant: 'Black',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture58.png'
     },  
     {
         id: '50',
@@ -413,7 +413,7 @@ export const CATALOG: Product[] = [
         size: '2", 2½", 3", 4"',
         variant: 'Black',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture59.png'
     }, 
     {
         id: '51',
@@ -421,23 +421,23 @@ export const CATALOG: Product[] = [
         size: '50mm, 65mm, 80mm, 100mm',
         variant: 'Green',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture60.png'
     }, 
     {
         id: '52',
-        name: 'Pipe Clamp',
-        size: '2", 2½", 3", 4"',
-        variant: 'Black',
+        name: 'Foot Valve(Spring)',
+        size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm, 100mm',
+        variant: 'Red',
         tab: 'agri',
-        img: 'Picture1.png'
-    }, 
+        img: 'Picture68.png'
+    },
     {
         id: '53',
         name: 'Service Saddle',
         size: '1½", 2", 2½", 3", 4", 5", 6"',
         variant: 'White',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture61.png'
     },  
     {
         id: '54',
@@ -445,7 +445,7 @@ export const CATALOG: Product[] = [
         size: ' 2", 2½", 3", 4", 5", 6"',
         variant: 'White',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture62.png'
     },
     {
         id: '55',
@@ -453,7 +453,7 @@ export const CATALOG: Product[] = [
         size: '2", 2½", 3", 4", 5", 6", 8", 10"',
         variant: 'White',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture63.png'
     },  
     {
         id: '56',
@@ -461,15 +461,15 @@ export const CATALOG: Product[] = [
         size: '2", 2½", 3", 4", 5", 6", 8", 10"',
         variant: 'White',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture64.png'
     },
     {
         id: '57',
         name: 'Foot Valve(Spring)',
-        size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm, 100mm',
+        size: '15mm, 20mm, 25mm ',
         variant: 'Red',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture65.png'
     },
     {
         id: '58',
@@ -477,7 +477,7 @@ export const CATALOG: Product[] = [
         size: '15mm, 20mm, 25mm',
         variant: 'Red',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture66.png'
     },
     {
         id: '59',
@@ -485,7 +485,7 @@ export const CATALOG: Product[] = [
         size: '15mm, 20mm, 25mm',
         variant: 'Red',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture67.png'
     },
     {
         id: '60',
@@ -493,7 +493,7 @@ export const CATALOG: Product[] = [
         size: '15mm, 20mm, 25mm, 32mm, 40mm, 50mm',
         variant: 'Red',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture69.png'
     },
     {
         id: '61',
@@ -501,7 +501,7 @@ export const CATALOG: Product[] = [
         size: '15mm, 20mm, 25mm',
         variant: 'Green, White',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture70.png'
     },
     {
         id: '62',
@@ -509,7 +509,7 @@ export const CATALOG: Product[] = [
         size: '25mm',
         variant: 'Black',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture71.png'
     },
     {
         id: '63',
@@ -517,7 +517,7 @@ export const CATALOG: Product[] = [
         size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm, 100mm, 125, 150',
         variant: 'Red',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture72.png'
     },
     {
         id: '64',
@@ -525,15 +525,15 @@ export const CATALOG: Product[] = [
         size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm, 100mm, 125, 150',
         variant: 'Red',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture73.png'
     },
     {
         id: '65',
-        name: 'BOre Foot Valve',
+        name: 'Bore Foot Valve',
         size: '50mm, 65mm, 80mm, 100mm',
         variant: 'Red',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture74.png'
     },
     {
         id: '66',
@@ -541,7 +541,7 @@ export const CATALOG: Product[] = [
         size: '32mm, 40mm, 50mm, 65mm, 80mm, 100mm, 125, 150',
         variant: 'Red',
         tab: 'agri',
-        img: 'Picture1.png'
+        img: 'Picture75.png'
     },
 
     // ════════════════════════════════
@@ -553,7 +553,7 @@ export const CATALOG: Product[] = [
         size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm, 100mm, 125, 150',
         variant: 'Blue',
         tab: 'fittings',
-        img: 'Picture1.png'
+        img: 'Picture76.png'
     },
     {
         id: '68',
@@ -561,7 +561,7 @@ export const CATALOG: Product[] = [
         size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm, 100mm, 125, 150',
         variant: 'Blue',
         tab: 'fittings',
-        img: 'Picture1.png'
+        img: 'Picture77.png'
     },
     {
         id: '69',
@@ -569,7 +569,7 @@ export const CATALOG: Product[] = [
         size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm, 100mm, 125, 150, 200',
         variant: 'Blue',
         tab: 'fittings',
-        img: 'Picture1.png'
+        img: 'Picture78.png'
     },
     {
         id: '70',
@@ -577,7 +577,7 @@ export const CATALOG: Product[] = [
         size: '32mm, 40mm, 50mm, 65mm, 80mm, 100mm',
         variant: 'Black',
         tab: 'fittings',
-        img: 'Picture1.png'
+        img: 'Picture79.png'
     },
     {
         id: '71',
@@ -585,7 +585,7 @@ export const CATALOG: Product[] = [
         size: '15 X 20, 15 X 25, 20 X 25, 15 X 32, 20 X 32, 25 X 32, 32 X 40, 25 X 40, 40 X 50, 50 X 65, 65 X 80, 80 X 100',
         variant: 'Blue',
         tab: 'fittings',
-        img: 'Picture1.png'
+        img: 'Picture80.png'
     },
     {
         id: '72',
@@ -593,7 +593,7 @@ export const CATALOG: Product[] = [
         size: '15 X 20, 15 X 25, 20 X 25, 25 X 32, 32 X 40, 25 X 40, 40 X 50, 50 X 65, 65 X 80, 80 X 100',
         variant: 'Blue',
         tab: 'fittings',
-        img: 'Picture1.png'
+        img: 'Picture81.png'
     },
     {
         id: '73',
@@ -601,7 +601,7 @@ export const CATALOG: Product[] = [
         size: '15 X 20, 15 X 25, 20 X 25, 25 X 32, 32 X 40, 25 X 40, 40 X 50, 50 X 65, 65 X 80, 80 X 100',
         variant: 'Blue',
         tab: 'fittings',
-        img: 'Picture1.png'
+        img: 'Picture82.png'
     },
     {
         id: '74',
@@ -609,7 +609,7 @@ export const CATALOG: Product[] = [
         size: '2", 2½"',
         variant: 'BLue',
         tab: 'fittings',
-        img: 'Picture1.png'
+        img: 'Picture83.png'
     },
     {
         id: '75',
@@ -617,7 +617,7 @@ export const CATALOG: Product[] = [
         size: '1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3", 4"',
         variant: 'Blue',
         tab: 'fittings',
-        img: 'Picture1.png'
+        img: 'Picture84.png'
     },
     {
         id: '76',
@@ -625,7 +625,7 @@ export const CATALOG: Product[] = [
         size: '1½", 2", 2½", 3", 4"',
         variant: 'Blue',
         tab: 'fittings',
-        img: 'Picture1.png'
+        img: 'Picture85.png'
     },
     {
         id: '77',
@@ -633,7 +633,7 @@ export const CATALOG: Product[] = [
         size: '1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3",',
         variant: 'Blue',
         tab: 'fittings',
-        img: 'Picture1.png'
+        img: 'Picture86.png'
     },
     {
         id: '78',
@@ -641,7 +641,7 @@ export const CATALOG: Product[] = [
         size: '1/2", 3/4", 1", 1¼", 1½", 2"',
         variant: 'White',
         tab: 'fittings',
-        img: 'Picture1.png'
+        img: 'Picture87.png'
     },
     {
         id: '79',
@@ -649,7 +649,7 @@ export const CATALOG: Product[] = [
         size: '1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3",',
         variant: 'Blue',
         tab: 'fittings',
-        img: 'Picture1.png'
+        img: 'Picture88.png'
     },
     {
         id: '80',
@@ -657,15 +657,7 @@ export const CATALOG: Product[] = [
         size: '1/2", 3/4", 1", 1¼", 1½", 2", 2½",',
         variant: 'Blue',
         tab: 'fittings',
-        img: 'Picture1.png'
-    },
-    {
-        id: '81',
-        name: 'Tank Nipple',
-        size: '1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3",',
-        variant: 'Blue',
-        tab: 'fittings',
-        img: 'Picture1.png'
+        img: 'Picture94.png'
     },
     {
         id: '82',
@@ -673,7 +665,7 @@ export const CATALOG: Product[] = [
         size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm',
         variant: 'Blue',
         tab: 'fittings',
-        img: 'Picture1.png'
+        img: 'Picture96.png'
     },
     {
         id: '83',
@@ -681,7 +673,7 @@ export const CATALOG: Product[] = [
         size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm',
         variant: 'Blue',
         tab: 'fittings',
-        img: 'Picture1.png'
+        img: 'Picture97.png'
     },
     {
         id: '84',
@@ -689,7 +681,7 @@ export const CATALOG: Product[] = [
         size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm',
         variant: 'Blue',
         tab: 'fittings',
-        img: 'Picture1.png'
+        img: 'Picture98.png'
     },
     {
         id: '85',
@@ -697,7 +689,7 @@ export const CATALOG: Product[] = [
         size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm',
         variant: 'Blue',
         tab: 'fittings',
-        img: 'Picture1.png'
+        img: 'Picture99.png'
     },
     {
         id: '86',
@@ -705,7 +697,7 @@ export const CATALOG: Product[] = [
         size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm',
         variant: 'Blue',
         tab: 'fittings',
-        img: 'Picture1.png'
+        img: 'Picture100.png'
     },
     {
         id: '87',
@@ -713,7 +705,7 @@ export const CATALOG: Product[] = [
         size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm',
         variant: 'Blue',
         tab: 'fittings',
-        img: 'Picture1.png'
+        img: 'Picture101.png'
     },
     {
         id: '88',
@@ -721,7 +713,7 @@ export const CATALOG: Product[] = [
         size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm',
         variant: 'Blue',
         tab: 'fittings',
-        img: 'Picture1.png'
+        img: 'Picture101.png'
     },
 
     // ════════════════════════════════
@@ -733,7 +725,7 @@ export const CATALOG: Product[] = [
         size: ' 1¼", 1½"',
         variant: 'Black/green',
         tab: 'Rain',
-        img: 'Picture1.png'
+        img: 'Picture214.png'
     },
     {
         id: '90',
@@ -741,7 +733,7 @@ export const CATALOG: Product[] = [
         size: ' 1¼", 1½"',
         variant: 'Black/green',
         tab: 'Rain',
-        img: 'Picture1.png'
+        img: 'Picture215.png'
     },
     {
         id: '91',
@@ -749,7 +741,7 @@ export const CATALOG: Product[] = [
         size: ' 1¼", 1½"',
         variant: 'Black/green',
         tab: 'Rain',
-        img: 'Picture1.png'
+        img: 'Picture216.png'
     },
     {
         id: '92',
@@ -757,7 +749,7 @@ export const CATALOG: Product[] = [
         size: ' 1¼"',
         variant: 'Black/Yellow',
         tab: 'Rain',
-        img: 'Picture1.png'
+        img: 'Picture218.png'
     },
     {
         id: '93',
@@ -765,7 +757,7 @@ export const CATALOG: Product[] = [
         size: ' 1¼"',
         variant: 'Black',
         tab: 'Rain',
-        img: 'Picture1.png'
+        img: 'Picture217.png'
     },
     {
         id: '94',
@@ -773,7 +765,7 @@ export const CATALOG: Product[] = [
         size: ' 1½" X 16MM, ½" X 20MM',
         variant: 'Black/Yellow',
         tab: 'Rain',
-        img: 'Picture1.png'
+        img: 'Picture219.png'
     },
     {
         id: '95',
@@ -781,7 +773,7 @@ export const CATALOG: Product[] = [
         size: ' 40mm',
         variant: 'Black',
         tab: 'Rain',
-        img: 'Picture1.png'
+        img: 'Picture221.png'
     },
     {
         id: '96',
@@ -789,7 +781,7 @@ export const CATALOG: Product[] = [
         size: ' 40mm',
         variant: 'Black',
         tab: 'Rain',
-        img: 'Picture1.png'
+        img: 'Picture220.png'
     },
     {
         id: '97',
@@ -797,7 +789,7 @@ export const CATALOG: Product[] = [
         size: ' 40mm',
         variant: 'Black',
         tab: 'Rain',
-        img: 'Picture1.png'
+        img: 'Picture222.png'
     },
 
     // ════════════════════════════════
@@ -809,7 +801,7 @@ export const CATALOG: Product[] = [
         size: ' 20mm',
         variant: 'Blue',
         tab: 'Compression',
-        img: 'Picture1.png'
+        img: 'Picture223.png'
     },
     {
         id: '99',
@@ -817,7 +809,7 @@ export const CATALOG: Product[] = [
         size: ' 20mm',
         variant: 'Blue',
         tab: 'Compression',
-        img: 'Picture1.png'
+        img: 'Picture224.png'
     },
     {
         id: '100',
@@ -825,7 +817,7 @@ export const CATALOG: Product[] = [
         size: ' 20mm',
         variant: 'Blue',
         tab: 'Compression',
-        img: 'Picture1.png'
+        img: 'Picture225.png'
     },
     {
         id: '101',
@@ -833,7 +825,7 @@ export const CATALOG: Product[] = [
         size: ' 20mm',
         variant: 'Blue',
         tab: 'Compression',
-        img: 'Picture1.png'
+        img: 'Picture226.png'
     },
     {
         id: '102',
@@ -841,7 +833,7 @@ export const CATALOG: Product[] = [
         size: ' 20mm',
         variant: 'Blue',
         tab: 'Compression',
-        img: 'Picture1.png'
+        img: 'Picture227.png'
     },
     {
         id: '103',
@@ -849,15 +841,7 @@ export const CATALOG: Product[] = [
         size: ' 20mm',
         variant: 'Blue',
         tab: 'Compression',
-        img: 'Picture1.png'
-    },
-    {
-        id: '104',
-        name: 'MTA Adaptor Brass Thread',
-        size: ' 20mm',
-        variant: 'Blue',
-        tab: 'Compression',
-        img: 'Picture1.png'
+        img: 'Picture228.png'
     },
     {
         id: '105',
@@ -865,7 +849,7 @@ export const CATALOG: Product[] = [
         size: ' 20mm',
         variant: 'Blue',
         tab: 'Compression',
-        img: 'Picture1.png'
+        img: 'Picture229.png'
     },
     {
         id: '106',
@@ -873,7 +857,7 @@ export const CATALOG: Product[] = [
         size: ' 20mm',
         variant: 'Blue',
         tab: 'Compression',
-        img: 'Picture1.png'
+        img: 'Picture230.png'
     },
     {
         id: '107',
@@ -881,7 +865,7 @@ export const CATALOG: Product[] = [
         size: ' 20mm',
         variant: 'Blue',
         tab: 'Compression',
-        img: 'Picture1.png'
+        img: 'Picture231.png'
     },
     {
         id: '108',
@@ -889,7 +873,7 @@ export const CATALOG: Product[] = [
         size: ' 20mm',
         variant: 'Blue',
         tab: 'Compression',
-        img: 'Picture1.png'
+        img: 'Picture232.png'
     },
     {
         id: '109',
@@ -897,7 +881,7 @@ export const CATALOG: Product[] = [
         size: ' 20mm',
         variant: 'Blue',
         tab: 'Compression',
-        img: 'Picture1.png'
+        img: 'Picture234.png'
     },
     {
         id: '110',
@@ -905,7 +889,7 @@ export const CATALOG: Product[] = [
         size: ' 20mm',
         variant: 'Blue',
         tab: 'Compression',
-        img: 'Picture1.png'
+        img: 'Picture235.png'
     },
     {
         id: '111',
@@ -913,7 +897,7 @@ export const CATALOG: Product[] = [
         size: ' 20mm',
         variant: 'Golden',
         tab: 'Compression',
-        img: 'Picture1.png'
+        img: 'Picture233.png'
     },
     {
         id: '112',
@@ -921,7 +905,7 @@ export const CATALOG: Product[] = [
         size: ' 20mm',
         variant: 'Blue',
         tab: 'Compression',
-        img: 'Picture1.png'
+        img: 'Picture236.png'
     },
     {
         id: '113',
@@ -929,7 +913,7 @@ export const CATALOG: Product[] = [
         size: ' 20mm',
         variant: 'Blue',
         tab: 'Compression',
-        img: 'Picture1.png'
+        img: 'Picture237.png'
     },
     {
         id: '114',
@@ -937,7 +921,7 @@ export const CATALOG: Product[] = [
         size: ' 100mm * 1/2" / 150mm * 1/2" / 200mm * 1/2" ',
         variant: 'Blue',
         tab: 'Compression',
-        img: 'Picture1.png'
+        img: 'Picture240.png'
     },
 
     // ════════════════════════════════
@@ -949,7 +933,7 @@ export const CATALOG: Product[] = [
         size: ' 12mm / 16mm / 20mm / 16 * 20 mm',
         variant: 'Black',
         tab: 'Irrigation',
-        img: 'Picture1.png'
+        img: 'Picture190.png'
     },
     {
         id: '116',
@@ -957,7 +941,7 @@ export const CATALOG: Product[] = [
         size: ' 16mm ',
         variant: 'Blue',
         tab: 'Irrigation',
-        img: 'Picture1.png'
+        img: 'Picture191.png'
     },
     {
         id: '117',
@@ -965,7 +949,7 @@ export const CATALOG: Product[] = [
         size: ' 12mm / 16mm / 20mm / 16 * 20 mm',
         variant: 'Black',
         tab: 'Irrigation',
-        img: 'Picture1.png'
+        img: 'Picture192.png'
     },
     {
         id: '118',
@@ -981,7 +965,7 @@ export const CATALOG: Product[] = [
         size: ' 12mm / 16mm / 20mm ',
         variant: 'Black',
         tab: 'Irrigation',
-        img: 'Picture1.png'
+        img: 'Picture194.png'
     },
     {
         id: '120',
@@ -997,7 +981,7 @@ export const CATALOG: Product[] = [
         size: ' 16mm ',
         variant: 'Blue',
         tab: 'Irrigation',
-        img: 'Picture1.png'
+        img: 'Picture196.png'
     },
     {
         id: '122',
@@ -1005,7 +989,7 @@ export const CATALOG: Product[] = [
         size: ' 16mm ',
         variant: 'Black',
         tab: 'Irrigation',
-        img: 'Picture1.png'
+        img: 'Picture197.png'
     },
     {
         id: '123',
@@ -1013,7 +997,7 @@ export const CATALOG: Product[] = [
         size: ' 16mm ',
         variant: 'Black',
         tab: 'Irrigation',
-        img: 'Picture1.png'
+        img: 'Picture198.png'
     },
     {
         id: '124',
@@ -1021,7 +1005,7 @@ export const CATALOG: Product[] = [
         size: ' 12mm / 16mm / 20mm ',
         variant: 'Black',
         tab: 'Irrigation',
-        img: 'Picture1.png'
+        img: 'Picture199.png'
     },
     {
         id: '125',
@@ -1029,7 +1013,7 @@ export const CATALOG: Product[] = [
         size: ' 16mm ',
         variant: 'Black',
         tab: 'Irrigation',
-        img: 'Picture1.png'
+        img: 'Picture193.png'
     },
     {
         id: '126',
@@ -1037,7 +1021,7 @@ export const CATALOG: Product[] = [
         size: ' 16mm / 20mm ',
         variant: 'Black',
         tab: 'Irrigation',
-        img: 'Picture1.png'
+        img: 'Picture202.png'
     },
     {
         id: '127',
@@ -1045,7 +1029,7 @@ export const CATALOG: Product[] = [
         size: ' 16mm / 20mm ',
         variant: 'Black',
         tab: 'Irrigation',
-        img: 'Picture1.png'
+        img: 'Picture200.png'
     },
     {
         id: '128',
@@ -1053,7 +1037,7 @@ export const CATALOG: Product[] = [
         size: ' 16mm / 20mm ',
         variant: 'Black / Yellow',
         tab: 'Irrigation',
-        img: 'Picture1.png'
+        img: 'Picture201.png'
     },
     {
         id: '129',
@@ -1061,7 +1045,7 @@ export const CATALOG: Product[] = [
         size: ' 16mm / 20mm / 16 * 20 mm',
         variant: 'Black',
         tab: 'Irrigation',
-        img: 'Picture1.png'
+        img: 'Picture203.png'
     },
     {
         id: '130',
@@ -1069,7 +1053,7 @@ export const CATALOG: Product[] = [
         size: ' 16mm ',
         variant: 'Black',
         tab: 'Irrigation',
-        img: 'Picture1.png'
+        img: 'Picture205.png'
     },
     {
         id: '131',
@@ -1077,7 +1061,7 @@ export const CATALOG: Product[] = [
         size: ' 16mm ',
         variant: 'Black',
         tab: 'Irrigation',
-        img: 'Picture1.png'
+        img: 'Picture204.png'
     },
     {
         id: '132',
@@ -1093,7 +1077,7 @@ export const CATALOG: Product[] = [
         size: ' 16mm ',
         variant: 'Black',
         tab: 'Irrigation',
-        img: 'Picture1.png'
+        img: 'Picture206.png'
     },
     {
         id: '134',
@@ -1101,7 +1085,7 @@ export const CATALOG: Product[] = [
         size: ' 12mm ',
         variant: 'Black',
         tab: 'Irrigation',
-        img: 'Picture1.png'
+        img: 'Picture209.png'
     },
     {
         id: '135',
@@ -1109,7 +1093,7 @@ export const CATALOG: Product[] = [
         size: ' 16mm ',
         variant: 'Black',
         tab: 'Irrigation',
-        img: 'Picture1.png'
+        img: 'Picture207.png'
     },
     {
         id: '136',
@@ -1117,7 +1101,7 @@ export const CATALOG: Product[] = [
         size: ' 16mm ',
         variant: 'Black',
         tab: 'Irrigation',
-        img: 'Picture1.png'
+        img: 'Picture208.png'
     },
     {
         id: '137',
@@ -1125,7 +1109,7 @@ export const CATALOG: Product[] = [
         size: ' 16 * 1/2"mm / 20 * 1/2" mm',
         variant: 'Black',
         tab: 'Irrigation',
-        img: 'Picture1.png'
+        img: 'Picture210.png'
     },
     {
         id: '138',
@@ -1133,7 +1117,7 @@ export const CATALOG: Product[] = [
         size: ' 1/2" ',
         variant: 'Black',
         tab: 'Irrigation',
-        img: 'Picture1.png'
+        img: 'Picture213.png'
     },
     {
         id: '139',
@@ -1141,7 +1125,7 @@ export const CATALOG: Product[] = [
         size: ' 2" ',
         variant: 'Green',
         tab: 'Irrigation',
-        img: 'Picture1.png'
+        img: 'Picture211.png'
     },
     {
         id: '140',
@@ -1149,7 +1133,7 @@ export const CATALOG: Product[] = [
         size: ' 1*1/2" /  2" / 2*1/2" ',
         variant: 'Black',
         tab: 'Irrigation',
-        img: 'Picture1.png'
+        img: 'Picture212.png'
     },
 
     // ════════════════════════════════
