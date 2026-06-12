@@ -233,7 +233,7 @@ export const CATALOG: Product[] = [
     },  
     {
         id: '27',
-        name: 'Kundi Bari',
+        name: 'Kundi Bara',
         size: '3", 4", 5", 6", 8", 10"',
         variant: 'Gray ',
         tab: 'agri',
