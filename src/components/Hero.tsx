@@ -85,7 +85,7 @@ export default function Hero() {
               </p>
             </div>
             <div>
-              <div className="text-2xl sm:text-3xl font-extrabold font-headline text-primary">5</div>
+              <div className="text-2xl sm:text-3xl font-extrabold font-headline text-primary">7</div>
               <p className="text-[10px] sm:text-xs font-bold text-on-surface-variant uppercase tracking-wider mt-1">
                 Product Lines
               </p>
