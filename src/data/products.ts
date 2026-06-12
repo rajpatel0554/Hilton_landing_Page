@@ -62,7 +62,7 @@ export const CATALOG: Product[] = [
     {
         id: '7',
         name: 'CPVC Ball Valve (Short Handle)',
-        size: '1/2" (20 mm) to 4" (110 mm) — includes 1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3", 4"',
+        size: '1/2" (20 mm) to 4" (110 mm) — includes  3/4", 1", 1¼", 1½", 2"',
         variant: 'White',
         tab: 'valves',
         img: 'Picture8.png'
@@ -70,7 +70,7 @@ export const CATALOG: Product[] = [
     {
         id: '8',
         name: 'CPVC Ball Valve (Long Handle)',
-        size: '1/2" (20 mm) to 4" (110 mm) — includes 1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3", 4"',
+        size: '1/2" (20 mm) to 4" (110 mm) — includes 3/4", 1", 1¼", 1½", 2",
         variant: 'White',
         tab: 'valves',
         img: 'Picture9.png'
@@ -149,7 +149,7 @@ export const CATALOG: Product[] = [
     },  
     {
         id: '18',
-        name: 'TSingle pic Ball Valve Short (Plan/Thread)',
+        name: 'Single pic Ball Valve Short (Plan/Thread)',
         size: ' 1½" (50 mm) to 4" (110 mm) — includes 1½", 2", 2½", 3", 4"',
         variant: 'Black',
         tab: 'valves',
@@ -558,7 +558,7 @@ export const CATALOG: Product[] = [
     {
         id: '68',
         name: 'Hose Coller(IN Thread)',
-        size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm, 100mm, 125, 150',
+        size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm, 100mm',
         variant: 'Blue',
         tab: 'fittings',
         img: 'Picture77.png'
@@ -708,12 +708,20 @@ export const CATALOG: Product[] = [
         img: 'Picture101.png'
     },
     {
+        id: '87',
+        name: 'PP Plug/Bush',
+        size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm',
+        variant: 'Black',
+        tab: 'fittings',
+        img: 'Picture1001.jpeg'
+    },
+    {
         id: '88',
         name: 'PP Cap/Plug',
         size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm',
         variant: 'Blue',
         tab: 'fittings',
-        img: 'Picture101.png'
+        img: 'Picture102.png'
     },
 
     // ════════════════════════════════
@@ -893,7 +901,7 @@ export const CATALOG: Product[] = [
     },
     {
         id: '111',
-        name: 'Brass Ferrule / Bib Cock / Adjustable Feerule',
+        name: 'Brass Ferrule',
         size: ' 20mm',
         variant: 'Golden',
         tab: 'Compression',
@@ -1197,7 +1205,7 @@ export const CATALOG: Product[] = [
     },
     {
         id: '148',
-        name: 'Machine Adapter',
+        name: 'Mosco Adapter',
         size: '15 mm to 25 mm',
         variant: 'Pristine Smooth Pure',
         tab: 'bathroom',
@@ -1207,7 +1215,7 @@ export const CATALOG: Product[] = [
         id: '149',
         name: 'Concealed Bush(Light) ',
         size: '15 mm to 20 mm',
-        variant: 'White — Pristine Smooth Pure',
+        variant: 'Ivery',
         tab: 'bathroom',
         img: 'Picture110.png'
     },
@@ -1215,7 +1223,7 @@ export const CATALOG: Product[] = [
         id: '150',
         name: 'Aaro Cock (Short)',
         size: '15 mm',
-        variant: 'White — Pristine Smooth Pure',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture114.png'
     },
@@ -1223,7 +1231,7 @@ export const CATALOG: Product[] = [
         id: '151',
         name: 'Aaro Cock (Long Thread)',
         size: '15 mm',
-        variant: 'White — Pristine Smooth Pure',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture115.png'
     },
@@ -1231,7 +1239,7 @@ export const CATALOG: Product[] = [
         id: '152',
         name: 'Jug Cock',
         size: '15 mm',
-        variant: 'White — Pristine Smooth Pure',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture116.png'
     },
@@ -1239,7 +1247,7 @@ export const CATALOG: Product[] = [
         id: '153',
         name: 'Three Way Elbow',
         size: '15 mm to 25 mm',
-        variant: 'White — Pristine Smooth Pure',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture118.png'
     },
@@ -1247,7 +1255,7 @@ export const CATALOG: Product[] = [
         id: '154',
         name: 'Dabba Shower',
         size: '15 mm fitting socket',
-        variant: 'White — Pristine Smooth Pure',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture120.png'
     },
@@ -1255,7 +1263,7 @@ export const CATALOG: Product[] = [
         id: '155',
         name: 'PP Polo Bib Cock Series',
         size: '1/2"',
-        variant: 'White Shell / High-Gloss Colored Handle — Short, Long, Foam Flow', 
+        variant: 'White ', 
         tab: 'bathroom',
         img: 'Picture126.png'
     },
@@ -1287,7 +1295,7 @@ export const CATALOG: Product[] = [
         id: '159',
         name: 'PP Mosco Short Body',
         size: '1/2"',
-        variant: 'Full Branded Colored Poly — Short',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture134.png'
     },
@@ -1295,7 +1303,7 @@ export const CATALOG: Product[] = [
         id: '160',
         name: 'PP Mosco Long Body',
         size: '1/2"',
-        variant: 'Full Branded Colored Poly — Short',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture135.png'
     },
@@ -1303,7 +1311,7 @@ export const CATALOG: Product[] = [
         id: '161',
         name: 'PP Mosco Nozzle',
         size: '1/2"',
-        variant: 'Full Branded Colored Poly — Short',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture136.png'
     },
@@ -1311,7 +1319,7 @@ export const CATALOG: Product[] = [
         id: '162',
         name: 'PP Mosco Foam Flow',
         size: '1/2"',
-        variant: 'Full Branded Colored Poly — Short',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture137.png'
     },
@@ -1319,7 +1327,7 @@ export const CATALOG: Product[] = [
         id: '163',
         name: 'PP Mosco Angle Cock',
         size: '1/2"',
-        variant: 'Full Branded Colored Poly — Short',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture137.png'
     },
@@ -1327,7 +1335,7 @@ export const CATALOG: Product[] = [
         id: '164',
         name: 'PP Mosco Pillar Cock',
         size: '1/2"',
-        variant: 'Full Branded Colored Poly — Short',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture138.png'
     },
@@ -1359,7 +1367,7 @@ export const CATALOG: Product[] = [
         id: '168',
         name: 'PP Royal Bib Cock Short Body',
         size: '1/2"',
-        variant: 'Premium White/Grey ',
+        variant: 'White ',
         tab: 'bathroom',
         img: 'Picture142.png'
     },
@@ -1367,7 +1375,7 @@ export const CATALOG: Product[] = [
         id: '169',
         name: 'PP Royal Bib Cock Long',
         size: '1/2"',
-        variant: 'Premium White/Grey ',
+        variant: 'White ',
         tab: 'bathroom',
         img: 'Picture143.png'
     },
@@ -1375,7 +1383,7 @@ export const CATALOG: Product[] = [
         id: '170',
         name: 'PP Royal Bib Cock Nozzle',
         size: '1/2"',
-        variant: 'Premium White/Grey ',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture144.png'
     },
@@ -1383,7 +1391,7 @@ export const CATALOG: Product[] = [
         id: '171',
         name: 'PP Royal Bib Cock Foam Flow',
         size: '1/2"',
-        variant: 'Premium White/Grey ',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture145.png'
     },
@@ -1391,7 +1399,7 @@ export const CATALOG: Product[] = [
         id: '172',
         name: 'PP Royal Bib Cock Washing Machine',
         size: '1/2"',
-        variant: 'Premium White/Grey ',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture146.png'
     },
@@ -1399,7 +1407,7 @@ export const CATALOG: Product[] = [
         id: '173',
         name: 'PP Royal Bib Angle Cock',
         size: '1/2"',
-        variant: 'Premium White/Grey ',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture147.png'
     },
@@ -1407,7 +1415,7 @@ export const CATALOG: Product[] = [
         id: '174',
         name: 'PP Royal Bib Pillar Cock',
         size: '1/2"',
-        variant: 'Premium White/Grey ',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture148.png'
     },
@@ -1415,7 +1423,7 @@ export const CATALOG: Product[] = [
         id: '175',
         name: 'PP Royal Bib Sink Cock',
         size: '1/2"',
-        variant: 'Premium White/Grey ',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture149.png'
     },
@@ -1423,7 +1431,7 @@ export const CATALOG: Product[] = [
         id: '176',
         name: 'Turbo Bib Cock Short Body',
         size: '1/2"',
-        variant: 'Dual Tone Accent',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture150.png'
     },
@@ -1431,7 +1439,7 @@ export const CATALOG: Product[] = [
         id: '177',
         name: 'Turbo Bib Cock Long Body',
         size: '1/2"',
-        variant: 'Dual Tone Accent',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture151.png'
     },
@@ -1439,7 +1447,7 @@ export const CATALOG: Product[] = [
         id: '178',
         name: 'Turbo Bib Nozzle cock',
         size: '1/2"',
-        variant: 'Dual Tone Accent',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture152.png'
     },
@@ -1447,7 +1455,7 @@ export const CATALOG: Product[] = [
         id: '179',
         name: 'Turbo Bib Foam Flow Cock',
         size: '1/2"',
-        variant: 'Dual Tone Accent',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture153.png'
     },
@@ -1455,7 +1463,7 @@ export const CATALOG: Product[] = [
         id: '180',
         name: 'Turbo Bib Angle Cock',
         size: '1/2"',
-        variant: 'Dual Tone Accent',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture154.png'
     },
@@ -1485,9 +1493,9 @@ export const CATALOG: Product[] = [
     },
     {
         id: '184',
-        name: 'U-PVC Bib Cock',
+        name: 'PP U-PVC Bib Cock',
         size: '1/2"',
-        variant: 'Ivory / White Adaptation',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture159.png'
     },
@@ -1495,7 +1503,7 @@ export const CATALOG: Product[] = [
         id: '185',
         name: 'Fancy Bib Short Cock',
         size: '1/2"',
-        variant: 'Elegant White/Colored',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture160.png'
     },
@@ -1503,7 +1511,7 @@ export const CATALOG: Product[] = [
         id: '186',
         name: 'Fancy Bib Long Cock',
         size: '1/2"',
-        variant: 'Elegant White/Colored',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture161.png'
     },
@@ -1511,7 +1519,7 @@ export const CATALOG: Product[] = [
         id: '187',
         name: 'Fancy Bib Nozzle Cock',
         size: '1/2"',
-        variant: 'Elegant White/Colored',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture162.png'
     },
@@ -1519,7 +1527,7 @@ export const CATALOG: Product[] = [
         id: '188',
         name: 'Fancy Bib Foam flow Cock',
         size: '1/2"',
-        variant: 'Elegant White/Colored',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture163.png'
     },
@@ -1527,7 +1535,7 @@ export const CATALOG: Product[] = [
         id: '189',
         name: 'Fancy Bib angle Cock',
         size: '1/2"',
-        variant: 'Elegant White/Colored',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture164.png'
     },
@@ -1535,7 +1543,7 @@ export const CATALOG: Product[] = [
         id: '190',
         name: 'Fancy Bib pillar Cock',
         size: '1/2"',
-        variant: 'Elegant White/Colored',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture165.png'
     },
@@ -1559,7 +1567,7 @@ export const CATALOG: Product[] = [
         id: '193',
         name: 'Classic Bib Nozzle Cock',
         size: '1/2"',
-        variant: 'Classic White ',
+        variant: 'White ',
         tab: 'bathroom',
         img: 'Picture168.png'
     },
@@ -1567,7 +1575,7 @@ export const CATALOG: Product[] = [
         id: '194',
         name: 'Classic Bib Foam Flow Cock',
         size: '1/2"',
-        variant: 'Classic White ',
+        variant: 'White ',
         tab: 'bathroom',
         img: 'Picture169.png'
     },
@@ -1575,7 +1583,7 @@ export const CATALOG: Product[] = [
         id: '195',
         name: 'Classic Bib Washing Machine tape',
         size: '1/2"',
-        variant: 'Classic White ',
+        variant: 'White ',
         tab: 'bathroom',
         img: 'Picture170.png'
     },
@@ -1583,7 +1591,7 @@ export const CATALOG: Product[] = [
         id: '196',
         name: 'Star Bib short Cock',
         size: '1/2" to 1"',
-        variant: 'White/Blue Accent',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture171.png'
     },
@@ -1591,7 +1599,7 @@ export const CATALOG: Product[] = [
         id: '197',
         name: 'Star Bib Long Cock',
         size: '1/2" to 1"',
-        variant: 'White/Blue Accent',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture172.png'
     },
@@ -1599,7 +1607,7 @@ export const CATALOG: Product[] = [
         id: '198',
         name: 'Star Bib Nozzle Cock',
         size: '1/2" to 1"',
-        variant: 'White/Blue Accent',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture173.png'
     },
@@ -1607,7 +1615,7 @@ export const CATALOG: Product[] = [
         id: '199',
         name: 'Star Bib Washing machine',
         size: '1/2" to 1"',
-        variant: 'White/Blue Accent',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture174.png'
     },
@@ -1615,7 +1623,7 @@ export const CATALOG: Product[] = [
         id: '200',
         name: 'Fancy Crystal Bib Short Cock',
         size: '1/2"',
-        variant: 'Crystal Transparent Synthetic Polymer ',
+        variant: 'White ',
         tab: 'bathroom',
         img: 'Picture175.png'
     },
@@ -1623,7 +1631,7 @@ export const CATALOG: Product[] = [
         id: '201',
         name: 'Fancy Crystal Bib Long Cock',
         size: '1/2"',
-        variant: 'Crystal Transparent Synthetic Polymer ',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture176.png'
     },
@@ -1631,7 +1639,7 @@ export const CATALOG: Product[] = [
         id: '202',
         name: 'Fancy Crystal Bib Nozzle Cock',
         size: '1/2"',
-        variant: 'Crystal Transparent Synthetic Polymer ',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture177.png'
     },
@@ -1639,7 +1647,7 @@ export const CATALOG: Product[] = [
         id: '203',
         name: 'Fancy Crystal Bib Foam Flow Cock',
         size: '1/2"',
-        variant: 'Crystal Transparent Synthetic Polymer ',
+        variant: 'White ',
         tab: 'bathroom',
         img: 'Picture178.png'
     },
@@ -1647,7 +1655,7 @@ export const CATALOG: Product[] = [
         id: '204',
         name: 'Fancy Crystal Bib Angle Cock',
         size: '1/2"',
-        variant: 'Crystal Transparent Synthetic Polymer ',
+        variant: 'White ',
         tab: 'bathroom',
         img: 'Picture179.png'
     },
@@ -1655,7 +1663,7 @@ export const CATALOG: Product[] = [
         id: '205',
         name: 'Fancy Crystal Bib Pillar Cock',
         size: '1/2"',
-        variant: 'Crystal Transparent Synthetic Polymer ',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture180.png'
     },
@@ -1663,7 +1671,7 @@ export const CATALOG: Product[] = [
         id: '206',
         name: 'Folding Gutter Jali',
         size: '6" × 6"',
-        variant: 'White / Grey — Standard Structural',
+        variant: 'White',
         tab: 'bathroom',
         img: 'Picture181.png'
     },
