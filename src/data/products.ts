@@ -174,7 +174,8 @@ export const CATALOG: Product[] = [
         size: '1/2" (20 mm) to 4" (110 mm) — includes 1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3", 4"',
         variant: 'Black',
         tab: 'valves',
-        img: 'Picture241.png'
+        img: 'Picture241.png',
+        material: 'PVC'
     },  
     {
         id: '21',
@@ -182,7 +183,8 @@ export const CATALOG: Product[] = [
         size: '1/2" (20 mm) to 4" (110 mm) — includes 1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3", 4"',
         variant: 'Gray',
         tab: 'valves',
-        img: 'Picture242.png'
+        img: 'Picture242.png',
+        material: 'PVC'
     },  
     {
         id: '22',
@@ -190,7 +192,8 @@ export const CATALOG: Product[] = [
         size: '1/2" (20 mm) to 4" (110 mm) — includes 1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3", 4"',
         variant: 'White',
         tab: 'valves',
-        img: 'Picture243.png'
+        img: 'Picture243.png',
+        material: 'PVC'
     },  
 
     // ════════════════════════════════
