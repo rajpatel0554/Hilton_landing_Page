@@ -5,6 +5,7 @@ export interface Product {
   variant: string;
   tab: "valves" | "saddles" | "fittings" | "bathroom" | "agri" | "Rain" | "Compression" | "Irrigation";
   img: string;
+  material?: string;
 }
 
 export const CATALOG: Product[] = [
@@ -65,7 +66,8 @@ export const CATALOG: Product[] = [
         size: '1/2" (20 mm) to 4" (110 mm) — includes  3/4", 1", 1¼", 1½", 2"',
         variant: 'White',
         tab: 'valves',
-        img: 'Picture8.png'
+        img: 'Picture8.png',
+        material: 'PVC'
     }, 
     {
         id: '8',
@@ -73,7 +75,8 @@ export const CATALOG: Product[] = [
         size: '1/2" (20 mm) to 4" (110 mm) — includes 3/4", 1", 1¼", 1½", 2",
         variant: 'White',
         tab: 'valves',
-        img: 'Picture9.png'
+        img: 'Picture9.png',
+        material: 'PVC'
     }, 
     {
         id: '9',
@@ -81,7 +84,8 @@ export const CATALOG: Product[] = [
         size: '1/2" (20 mm) to 4" (110 mm) — includes 1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3", 4"',
         variant: 'White',
         tab: 'valves',
-        img: 'Picture10.png'
+        img: 'Picture10.png',
+        material: 'PVC'
     },  
     {
         id: '10',
@@ -89,7 +93,8 @@ export const CATALOG: Product[] = [
         size: '1/2" (20 mm) to 4" (110 mm) — includes 1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3", 4"',
         variant: 'White',
         tab: 'valves',
-        img: 'Picture11.png'
+        img: 'Picture11.png',
+        material: 'PVC'
     },  
     {
         id: '11',

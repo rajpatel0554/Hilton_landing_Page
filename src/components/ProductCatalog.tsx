@@ -305,7 +305,7 @@ export default function ProductCatalog() {
                     <div className="py-2.5 flex justify-between gap-4">
                       <span className="text-on-surface-variant font-bold">Material Grade</span>
                       <span className="text-on-surface font-semibold text-right">
-                        Polypropylene
+                        {selectedProduct.material || "Polypropylene"}
                       </span>
                     </div>
                     <div className="py-2.5 flex justify-between gap-4">
