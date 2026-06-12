@@ -78,7 +78,7 @@ export default function InquirySection() {
             <div className="space-y-4 max-w-lg">
               {/* Sales Support */}
               <a
-                href="tel:+919624096424"
+                href="tel:+919684096423"
                 className="group flex items-center justify-between p-4 bg-surface-white border border-outline-variant/15 hover:border-primary/20 rounded-lg shadow-sm hover:shadow transition-all duration-200"
               >
                 <div className="flex gap-4 items-center">
@@ -87,10 +87,10 @@ export default function InquirySection() {
                   </div>
                   <div>
                     <span className="block text-[10px] font-bold text-on-surface-variant uppercase tracking-wider leading-none">
-                      Patel Bharatbhai 
+                      Patel Vishnubhai 
                     </span>
                     <strong className="block text-sm sm:text-base text-on-surface font-headline font-bold mt-1.5 group-hover:text-primary transition-colors leading-none">
-                      +91 96240 96424
+                      +91 98240 96423
                     </strong>
                   </div>
                 </div>
@@ -101,7 +101,7 @@ export default function InquirySection() {
 
               {/* Ops Support */}
               <a
-                href="tel:+919824096423"
+                href="tel:+919624096424"
                 className="group flex items-center justify-between p-4 bg-surface-white border border-outline-variant/15 hover:border-primary/20 rounded-lg shadow-sm hover:shadow transition-all duration-200"
               >
                 <div className="flex gap-4 items-center">
@@ -110,10 +110,10 @@ export default function InquirySection() {
                   </div>
                   <div>
                     <span className="block text-[10px] font-bold text-on-surface-variant uppercase tracking-wider leading-none">
-                      Patel Vishnubhai 
+                      Patel Bharatbhai 
                     </span>
                     <strong className="block text-sm sm:text-base text-on-surface font-headline font-bold mt-1.5 group-hover:text-primary transition-colors leading-none">
-                      +91 98240 96423
+                      +91 96240 96424
                     </strong>
                   </div>
                 </div>
