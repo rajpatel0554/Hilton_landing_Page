@@ -1069,7 +1069,7 @@ export const CATALOG: Product[] = [
         size: ' 16mm / 20mm ',
         variant: 'Black',
         tab: 'Irrigation',
-        img: 'Picture1.png'
+        img: 'Picture1004.jpeg'
     },
     {
         id: '133',
