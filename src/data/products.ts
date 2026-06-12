@@ -72,7 +72,7 @@ export const CATALOG: Product[] = [
     {
         id: '8',
         name: 'CPVC Ball Valve (Long Handle)',
-        size: '1/2" (20 mm) to 4" (110 mm) — includes 3/4", 1", 1¼", 1½", 2",
+        size: '1/2" (20 mm) to 4" (110 mm) — includes 3/4", 1", 1¼", 1½", 2"',
         variant: 'White',
         tab: 'valves',
         img: 'Picture9.png',
