@@ -87,7 +87,7 @@ export default function InquirySection() {
                   </div>
                   <div>
                     <span className="block text-[10px] font-bold text-on-surface-variant uppercase tracking-wider leading-none">
-                      Patel Bharatbhai — Sales
+                      Patel Bharatbhai 
                     </span>
                     <strong className="block text-sm sm:text-base text-on-surface font-headline font-bold mt-1.5 group-hover:text-primary transition-colors leading-none">
                       +91 96240 96424
@@ -110,7 +110,7 @@ export default function InquirySection() {
                   </div>
                   <div>
                     <span className="block text-[10px] font-bold text-on-surface-variant uppercase tracking-wider leading-none">
-                      Patel Vishnubhai — Operations
+                      Patel Vishnubhai 
                     </span>
                     <strong className="block text-sm sm:text-base text-on-surface font-headline font-bold mt-1.5 group-hover:text-primary transition-colors leading-none">
                       +91 98240 96423
