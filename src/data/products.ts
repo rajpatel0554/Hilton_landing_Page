@@ -1166,7 +1166,8 @@ export const CATALOG: Product[] = [
         size: '15 mm to 25 mm',
         variant: 'White / Chrome Finish',
         tab: 'bathroom',
-        img: 'Picture92.png'
+        img: 'Picture92.png',
+        material: 'ABS'
     },
     {
         id: '143',
@@ -1174,7 +1175,8 @@ export const CATALOG: Product[] = [
         size: '12", 18", 24", 30", 36", 1m, 1.5m, 2m',
         variant: 'White Base + Stainless Nuts',
         tab: 'bathroom',
-        img: 'Picture95.png'
+        img: 'Picture95.png',
+        material: 'PTMT'
     },
     {
         id: '144',
@@ -1214,7 +1216,8 @@ export const CATALOG: Product[] = [
         size: '15 mm to 25 mm',
         variant: 'Pristine Smooth Pure',
         tab: 'bathroom',
-        img: 'Picture107.png'
+        img: 'Picture107.png',
+        material: 'PVC/polypropylene'
     },
     {
         id: '149',
@@ -1686,7 +1689,8 @@ export const CATALOG: Product[] = [
         size: '4"×4" (Square) · 6"×6" (Square)',
         variant: 'Chrome Plating Over White Core',
         tab: 'bathroom',
-        img: 'Picture182.png'
+        img: 'Picture182.png',
+        material: 'ABS'
     },
     {
         id: '208',
@@ -1694,7 +1698,8 @@ export const CATALOG: Product[] = [
         size: '5"×5" (CIrcle) ',
         variant: 'Chrome Plating Over White Core',
         tab: 'bathroom',
-        img: 'Picture183.jpg'
+        img: 'Picture183.jpg',
+        material: 'ABS'
     },
     {
         id: '209',
