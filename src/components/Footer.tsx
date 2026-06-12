@@ -164,7 +164,7 @@ export default function Footer() {
                 <span className="material-symbols-outlined text-primary text-[18px]">
                   phone_in_talk
                 </span>
-                +91 96240 96424 (Bharatbhai)
+                +91 98240 96423 (Vishnubhai)
               </a>
               <a
                 href="tel:+919824096423"
@@ -173,7 +173,7 @@ export default function Footer() {
                 <span className="material-symbols-outlined text-primary text-[18px]">
                   phone_in_talk
                 </span>
-                +91 98240 96423 (Vishnubhai)
+                +91 96240 96424 (Bharatbhai)
               </a>
               <div className="text-surface-white/50 text-[10px] leading-relaxed pt-2">
                 <strong>Factory Address:</strong>
