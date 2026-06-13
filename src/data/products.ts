@@ -1340,7 +1340,7 @@ export const CATALOG: Product[] = [
         size: '1/2"',
         variant: 'White',
         tab: 'bathroom',
-        img: 'Picture137.png'
+        img: 'picture1009.png'
     },
     {
         id: '163',
