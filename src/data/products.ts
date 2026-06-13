@@ -31,7 +31,7 @@ export const CATALOG: Product[] = [
     {
         id: '3',
         name: 'Solid Seal Ball Valve (long Handle)',
-        size: '1/2" (20 mm) to 4" (110 mm) — includes 1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3", 4"',
+        size: '2" (63 mm) to 4" (110 mm) — includes 2", 2½", 3", 4"',
         variant: 'Black',
         tab: 'valves',
         img: 'Picture3.png'
@@ -39,7 +39,7 @@ export const CATALOG: Product[] = [
     {
         id: '4',
         name: 'Solid Seal Ball Valve (long Handle)',
-        size: '1/2" (20 mm) to 4" (110 mm) — includes 1/2", 3/4", 1", 1¼", 1½", 2", 2½", 3", 4"',
+        size: '2" (63 mm) to 4" (110 mm) — includes  2", 2½", 3", 4"',
         variant: 'White',
         tab: 'valves',
         img: 'Picture4.png'
@@ -47,15 +47,23 @@ export const CATALOG: Product[] = [
     {
         id: '5',
         name: 'MS Handle ball valve',
-        size: '1/2" (20 mm) to 4" (110 mm) — includes  2", 2½", 3", 4", 5", 6", 8"',
+        size: '2" (63 mm) to 4" (110 mm) — includes  2", 2½", 3", 4"',
         variant: 'Black',
         tab: 'valves',
         img: 'Picture5.png'
     },
-    {
+  {
+        id: '5',
+        name: 'MS Handle ball valve',
+        size: '2" (63 mm) to 4" (110 mm) — includes  2", 2½", 3", 4"',
+        variant: 'White',
+        tab: 'valves',
+        img: 'Picture6.png'
+    },
+  {
         id: '6',
         name: 'Ms Handle Ball Valve',
-        size: '1/2" (20 mm) to 4" (110 mm) — includes 2", 2½", 3", 4", 5", 6", 8"',
+        size: '1/2" (20 mm) to 4" (110 mm) — includes 4", 5", 6",7", 8"',
         variant: 'White',
         tab: 'valves',
         img: 'Picture7.png'
@@ -63,7 +71,7 @@ export const CATALOG: Product[] = [
     {
         id: '7',
         name: 'CPVC Ball Valve (Short Handle)',
-        size: '1/2" (20 mm) to 4" (110 mm) — includes  3/4", 1", 1¼", 1½", 2"',
+        size: '3/4" (25 mm) to 2" (63 mm) — includes  3/4", 1", 1¼", 1½", 2"',
         variant: 'White',
         tab: 'valves',
         img: 'Picture8.png',
@@ -72,7 +80,7 @@ export const CATALOG: Product[] = [
     {
         id: '8',
         name: 'CPVC Ball Valve (Long Handle)',
-        size: '1/2" (20 mm) to 4" (110 mm) — includes 3/4", 1", 1¼", 1½", 2"',
+        size: '3/4" (25 mm) to 2" (63 mm) — includes 3/4", 1", 1¼", 1½", 2"',
         variant: 'White',
         tab: 'valves',
         img: 'Picture9.png',
@@ -331,7 +339,7 @@ export const CATALOG: Product[] = [
         id: '39',
         name: 'Union Black(Plain)',
         size: '2", 2½", 3"',
-        variant: 'Gray',
+        variant: 'black',
         tab: 'agri',
         img: 'Picture44.png'
     },  
@@ -370,7 +378,7 @@ export const CATALOG: Product[] = [
     {
         id: '44',
         name: 'Bend With Jali',
-        size: '1", 1¼", 1½", 2", 2½", 3", 4"',
+        size: '1", 1¼", 1½", 2", 2½"',
         variant: 'White',
         tab: 'agri',
         img: 'Picture53.png'
@@ -411,15 +419,15 @@ export const CATALOG: Product[] = [
         id: '49',
         name: 'Pipe Clamp',
         size: '2", 2½", 3", 4"',
-        variant: 'Black',
+        variant: 'Gray',
         tab: 'agri',
         img: 'Picture58.png'
     },  
     {
         id: '50',
-        name: 'Pipe Clamp',
+        name: 'SWR Clamp',
         size: '2", 2½", 3", 4"',
-        variant: 'Black',
+        variant: 'Gray',
         tab: 'agri',
         img: 'Picture59.png'
     }, 
@@ -434,7 +442,7 @@ export const CATALOG: Product[] = [
     {
         id: '52',
         name: 'Foot Valve(Spring)',
-        size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm, 100mm',
+        size: '32mm, 40mm, 50mm, 65mm, 80mm, 100mm',
         variant: 'Red',
         tab: 'agri',
         img: 'Picture68.png'
@@ -530,7 +538,7 @@ export const CATALOG: Product[] = [
     {
         id: '64',
         name: 'Nut Bolt Valve',
-        size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm, 100mm, 125, 150',
+        size: '32mm, 40mm, 50mm, 65mm, 80mm, 100mm, 125, 150',
         variant: 'Red',
         tab: 'agri',
         img: 'Picture73.png'
@@ -669,7 +677,7 @@ export const CATALOG: Product[] = [
     },
     {
         id: '82',
-        name: 'PP Elbow',
+        name: 'PP Elbow(Thread)',
         size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm',
         variant: 'Blue',
         tab: 'fittings',
@@ -677,7 +685,7 @@ export const CATALOG: Product[] = [
     },
     {
         id: '83',
-        name: 'PP TEE',
+        name: 'PP TEE(Thread)',
         size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm',
         variant: 'Blue',
         tab: 'fittings',
@@ -685,7 +693,7 @@ export const CATALOG: Product[] = [
     },
     {
         id: '84',
-        name: 'PP Cupline',
+        name: 'PP Cupline(Thread)',
         size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm',
         variant: 'Blue',
         tab: 'fittings',
@@ -693,7 +701,7 @@ export const CATALOG: Product[] = [
     },
     {
         id: '85',
-        name: 'PP Union',
+        name: 'PP Union(Thread)',
         size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm',
         variant: 'Blue',
         tab: 'fittings',
@@ -701,7 +709,7 @@ export const CATALOG: Product[] = [
     },
     {
         id: '86',
-        name: 'PP Hex Nipple',
+        name: 'PP Hex Nipple(Thread)',
         size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm',
         variant: 'Blue',
         tab: 'fittings',
@@ -709,7 +717,7 @@ export const CATALOG: Product[] = [
     },
     {
         id: '87',
-        name: 'PP Plug/Bush',
+        name: 'PP Plug/Bush(Thread)',
         size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm',
         variant: 'Blue',
         tab: 'fittings',
@@ -717,7 +725,7 @@ export const CATALOG: Product[] = [
     },
     {
         id: '87',
-        name: 'PP Plug/Bush',
+        name: 'PP Plug/Bush(Thread)',
         size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm',
         variant: 'Black',
         tab: 'fittings',
@@ -725,7 +733,7 @@ export const CATALOG: Product[] = [
     },
     {
         id: '88',
-        name: 'PP Cap/Plug',
+        name: 'PP Cap/Plug(Thread)',
         size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm',
         variant: 'Blue',
         tab: 'fittings',
@@ -946,7 +954,7 @@ export const CATALOG: Product[] = [
     {
         id: '115',
         name: 'Jointer',
-        size: ' 12mm / 16mm / 20mm / 16 * 20 mm',
+        size: ' 12mm / 16mm / 20mm / 16  X 20 mm',
         variant: 'Black',
         tab: 'Irrigation',
         img: 'Picture190.png'
@@ -962,7 +970,7 @@ export const CATALOG: Product[] = [
     {
         id: '117',
         name: 'Take Off',
-        size: ' 12mm / 16mm / 20mm / 16 * 20 mm',
+        size: ' 12mm / 16mm / 20mm / 16 X 20 mm',
         variant: 'Black',
         tab: 'Irrigation',
         img: 'Picture192.png'
@@ -1153,7 +1161,7 @@ export const CATALOG: Product[] = [
     },
 
     // ════════════════════════════════
-    // CATEGORY 7: Senitry & Cork
+    // CATEGORY 7: Senitry & Cocks
     // ════════════════════════════════
     {
         id: '141',
@@ -1482,7 +1490,7 @@ export const CATALOG: Product[] = [
         id: '181',
         name: 'Zibra Bib Cock Series',
         size: '1/2"',
-        variant: 'Zebra Stripe / Black & White — Short & Long Body variants',
+        variant: 'Blue',
         tab: 'bathroom',
         img: 'Picture155.png'
     },
@@ -1490,7 +1498,7 @@ export const CATALOG: Product[] = [
         id: '182',
         name: 'Corsa Bib Cock',
         size: '1/2"',
-        variant: 'Standard White / Grey Framework',
+        variant: 'all type of colours',
         tab: 'bathroom',
         img: 'Picture156.png'
     },
@@ -1498,7 +1506,7 @@ export const CATALOG: Product[] = [
         id: '183',
         name: 'Diamond Bib Cock',
         size: '1/2"',
-        variant: 'Premium Glossy High-Mirror Polishing',
+        variant: 'all type of colours',
         tab: 'bathroom',
         img: 'Picture158.png'
     },
