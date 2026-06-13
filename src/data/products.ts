@@ -729,7 +729,7 @@ export const CATALOG: Product[] = [
         size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm',
         variant: 'Black',
         tab: 'fittings',
-        img: 'Picture1001.jpeg'
+        img: 'picture1001.jpeg'
     },
     {
         id: '88',
