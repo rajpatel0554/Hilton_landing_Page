@@ -75,7 +75,7 @@ export default function ProductCatalog() {
     { id: "Rain", label: "Rain Pipe Fittings", icon: "water_drop" },
     { id: "Compression", label: "Compressor Fittings", icon: "compress" },
     { id: "Irrigation", label: "Irrigation Products", icon: "opacity" },
-    { id: "bathroom", label: "Sanitary & Cock", icon: "shower" }
+    { id: "bathroom", label: "Sanitary & Cocks", icon: "shower" }
   ];
 
   return (
