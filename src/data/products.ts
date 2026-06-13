@@ -1313,7 +1313,7 @@ export const CATALOG: Product[] = [
     {
         id: '159',
         name: 'PP Mosco Short Body',
-        size: '1/2"',
+        size: '1/2",3/4"',
         variant: 'White',
         tab: 'bathroom',
         img: 'Picture134.png'
