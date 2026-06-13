@@ -118,7 +118,7 @@ export default function CategoryShowcase() {
     },
     {
       tab: "bathroom",
-      title: "Sanitary & Cork",
+      title: "Sanitary & Cock",
       desc: "PP/ABS ball cocks, connection pipes, T-cock/pan/handi taps, push/jug cocks, showers, waste pipes, and fancy crystal bib cocks.",
       icon: (
         <svg className="w-8 h-8" viewBox="0 0 32 32" fill="none">
