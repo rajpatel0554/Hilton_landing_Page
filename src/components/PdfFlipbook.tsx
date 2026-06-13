@@ -20,6 +20,8 @@ export default function PdfFlipbook() {
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<boolean>(false);
   const [isMobile, setIsMobile] = useState<boolean>(false);
+  const [isPlaying, setIsPlaying] = useState<boolean>(false);
+  const [autoplayDelay] = useState<number>(3000); // 3 seconds per page
 
   const canvasLeftRef = useRef<HTMLCanvasElement>(null);
   const canvasRightRef = useRef<HTMLCanvasElement>(null);
@@ -283,6 +285,27 @@ export default function PdfFlipbook() {
     triggerFlipAnimation("next");
   };
 
+  // Autoplay (auto-flip) timer
+  useEffect(() => {
+    if (!isPlaying || !pdfDoc || loading || error) return;
+
+    const timer = setTimeout(() => {
+      if (isRenderingRef.current) return;
+
+      const isEnd = isMobile
+        ? currentPageRef.current >= numPages
+        : (currentPageRef.current === 1 ? 1 : currentPageRef.current % 2 === 0 ? currentPageRef.current + 1 : currentPageRef.current) >= numPages;
+
+      if (isEnd) {
+        firstPage();
+      } else {
+        nextPage();
+      }
+    }, autoplayDelay);
+
+    return () => clearTimeout(timer);
+  }, [isPlaying, currentPage, pdfDoc, loading, error, autoplayDelay, isMobile, numPages]);
+
   const getPageIndicatorText = () => {
     if (!pdfDoc) return "Loading...";
 
@@ -480,6 +503,28 @@ export default function PdfFlipbook() {
                       <span className="material-symbols-outlined">last_page</span>
                     </button>
 
+                    {/* Play / Pause Auto-flip */}
+                    <button
+                      onClick={() => setIsPlaying(!isPlaying)}
+                      disabled={loading || error}
+                      className={`w-10 h-10 rounded border flex items-center justify-center transition-all cursor-pointer focus:outline-none disabled:opacity-40 disabled:pointer-events-none relative overflow-hidden ${
+                        isPlaying
+                          ? "bg-primary text-surface-white border-primary hover:bg-primary-dark shadow-md shadow-primary/20 scale-105"
+                          : "border-outline-variant/40 bg-surface-white text-on-surface-variant hover:text-primary hover:border-primary/30"
+                      }`}
+                      title={isPlaying ? "Pause Auto-Flip" : "Start Auto-Flip"}
+                    >
+                      <span className="material-symbols-outlined">
+                        {isPlaying ? "pause" : "play_arrow"}
+                      </span>
+                      {isPlaying && (
+                        <span className="absolute top-1 right-1 flex h-2 w-2">
+                          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"></span>
+                          <span className="relative inline-flex rounded-full h-2 w-2 bg-accent"></span>
+                        </span>
+                      )}
+                    </button>
+
                     {/* Direct PDF Download Button */}
                     <a
                       href={pdfUrl}
@@ -492,7 +537,7 @@ export default function PdfFlipbook() {
                   </div>
 
                   <p className="text-[10px] text-on-surface-variant leading-none opacity-80 select-none">
-                    Use left / right keyboard arrow keys or tap buttons to turn pages.
+                    Use left / right keyboard arrow keys, tap buttons, or toggle Auto-Flip to browse.
                   </p>
                 </div>
               </div>
