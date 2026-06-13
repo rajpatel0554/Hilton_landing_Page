@@ -331,16 +331,16 @@ export default function ProductCatalog() {
                   </button>
                   <div className="flex flex-col sm:flex-row gap-2 pt-1.5 text-[10px] sm:text-xs">
                     <a
-                      href="tel:+919624096424"
-                      className="flex-1 text-center border border-outline-variant text-on-surface-variant py-2.5 rounded font-bold hover:bg-surface-muted transition-colors flex items-center justify-center gap-1 focus:outline-none"
-                    >
-                      📞 Bharatbhai (Sales)
-                    </a>
-                    <a
                       href="tel:+919824096423"
                       className="flex-1 text-center border border-outline-variant text-on-surface-variant py-2.5 rounded font-bold hover:bg-surface-muted transition-colors flex items-center justify-center gap-1 focus:outline-none"
                     >
-                      📞 Vishnubhai (Ops)
+                      📞 Vishnubhai
+                    </a>
+                    <a
+                      href="tel:+919624096424"
+                      className="flex-1 text-center border border-outline-variant text-on-surface-variant py-2.5 rounded font-bold hover:bg-surface-muted transition-colors flex items-center justify-center gap-1 focus:outline-none"
+                    >
+                      📞 Bharatbhai
                     </a>
                   </div>
                 </div>
