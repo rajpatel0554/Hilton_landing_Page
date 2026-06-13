@@ -724,7 +724,7 @@ export const CATALOG: Product[] = [
         img: 'Picture101.png'
     },
     {
-        id: '87',
+        id: '302',
         name: 'PP Plug/Bush(Thread)',
         size: '15mm, 20mm, 25mm  32mm, 40mm, 50mm, 65mm, 80mm',
         variant: 'Black',
