@@ -53,7 +53,7 @@ export const CATALOG: Product[] = [
         img: 'Picture5.png'
     },
   {
-        id: '5',
+        id: '301',
         name: 'MS Handle ball valve',
         size: '2" (63 mm) to 4" (110 mm) — includes  2", 2½", 3", 4"',
         variant: 'White',
@@ -63,7 +63,7 @@ export const CATALOG: Product[] = [
   {
         id: '6',
         name: 'Ms Handle Ball Valve',
-        size: '1/2" (20 mm) to 4" (110 mm) — includes 4", 5", 6",7", 8"',
+        size: '5" (140 mm) to 8" (200 mm) — includes 5", 6",7", 8"',
         variant: 'White',
         tab: 'valves',
         img: 'Picture7.png'
